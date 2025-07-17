@@ -20,8 +20,10 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <h2>Please sign in</h2>
-      <button onClick={()=> {signIn()}}>Signin</button>
+      
+        <h2>Please sign in</h2>
+        <button onClick={()=> {signIn()}}>Signin</button>
+      
     </div>
   );
 }
